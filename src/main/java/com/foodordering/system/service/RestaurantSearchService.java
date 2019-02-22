@@ -1,7 +1,7 @@
 package com.foodordering.system.service;
 
-import com.foodordering.system.model.FoodItem;
-import com.foodordering.system.model.Restaurant;
+import com.foodordering.system.model.restaurant.FoodItem;
+import com.foodordering.system.model.restaurant.Restaurant;
 
 import java.util.*;
 

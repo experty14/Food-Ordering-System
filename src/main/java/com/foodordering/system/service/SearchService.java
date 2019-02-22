@@ -1,6 +1,6 @@
 package com.foodordering.system.service;
 
-import com.foodordering.system.model.FoodItem;
+import com.foodordering.system.model.restaurant.FoodItem;
 
 import java.util.List;
 

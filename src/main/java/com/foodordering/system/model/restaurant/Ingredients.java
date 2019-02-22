@@ -1,4 +1,4 @@
-package com.foodordering.system.model;
+package com.foodordering.system.model.restaurant;
 
 import lombok.AllArgsConstructor;
 import lombok.EqualsAndHashCode;

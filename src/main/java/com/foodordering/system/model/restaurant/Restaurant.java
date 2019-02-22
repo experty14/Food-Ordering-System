@@ -1,5 +1,6 @@
-package com.foodordering.system.model;
+package com.foodordering.system.model.restaurant;
 
+import com.foodordering.system.model.ContactDetails;
 import lombok.EqualsAndHashCode;
 import lombok.Getter;
 import java.util.ArrayList;

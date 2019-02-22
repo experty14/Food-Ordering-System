@@ -1,4 +1,4 @@
-package com.foodordering.system.model;
+package com.foodordering.system.model.restaurant;
 
 public interface Discount {
     public Double itemDiscount();

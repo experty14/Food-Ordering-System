@@ -1,4 +1,4 @@
-package com.foodordering.system.model;
+package com.foodordering.system.model.restaurant;
 
 import lombok.Getter;
 
@@ -11,10 +11,9 @@ public class FoodItem {
     private List<Ingredients> extraIngredients;
     private List<String> category;
 
-    FoodItem(int price,String name,List<String> category){
+    FoodItem(String name,int price){
         this.price=price;
         this.name=name;
-        this.category=category;
     }
 
     public void addExtraIngredients(Ingredients ingredients){
