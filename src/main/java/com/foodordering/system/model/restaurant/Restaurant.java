@@ -1,6 +1,5 @@
 package com.foodordering.system.model;
 
-import com.foodordering.system.service.Ingredients;
 import lombok.EqualsAndHashCode;
 import lombok.Getter;
 import java.util.ArrayList;

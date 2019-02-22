@@ -1,6 +1,5 @@
 package com.foodordering.system.model;
 
-import com.foodordering.system.service.Ingredients;
 import lombok.Getter;
 
 import java.util.List;
@@ -9,7 +8,7 @@ import java.util.List;
 public class FoodItem {
     private int price;
     private String name;
-    private Ingredients extraIngredients;
+    private List<Ingredients> extraIngredients;
     private List<String> category;
 
     FoodItem(int price,String name,List<String> category){
@@ -18,7 +17,8 @@ public class FoodItem {
         this.category=category;
     }
 
-    public void addExtraIngredients(Ingredients extraIngredients){
-        this.extraIngredients=extraIngredients;
+    public void addExtraIngredients(Ingredients ingredients){
+
+        this.extraIngredients.add(ingredients);
     }
 }
